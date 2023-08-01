@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        ul#horizontal{
+            list-style: none;
+            font-size: 60px;
+        }
+        ul#horizontal li{
+display: inline;
+padding-right: 1em;
+padding-left: 1em;
+background-color: aquamarine;
+        }
+        ul#horizontal a{
+            text-decoration: none;
+        }
+        ul#horizontal:hover{
+            border-radius: 0 20px 20px 20px;
+        }
+    #body{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body  onload="document,getElementbyid('champ1').focus();">
+    <form action="action.php" method="post">
+<fieldset>
+        <legend>positonnement </legend>
+        <label for="">first name</label>
+     <input type="text" id="champ1"> 
+    <label for="">lastname</label>
+    <input type="text" id="champ2" >
+    <label for=""> adress</label>
+    <input type="text"  id="champ3">
+    <label for="">city</label>
+    <input type="text" id="champ4">
+  
+
+</fieldset>
+
+    </form>
+
+   <script>
+    var num1=5;
+    var num2=3;
+    var total=++num1;
+    document.write(total);
+   </script>  
+<form id="validation">
+    <label for="pwd"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pwd">
+    <label for="confirm"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" name="confirm">
+<label for="">name</label><input type="text" placeholder="firsname"  name="firsname"><br> 
+<label for="e-mail">e-mail</label> <input type="e-mail"  placeholder="e-mail"  name="e-mail" required><br><hr>
+
+<label for="">adress url</label> <input type= url name="url" required> <br>
+<label for="">comment</label> <textarea name="comment"    placeholder="text"></textarea><br>
+<button type="submit" class="registerbtn"><strong>Register</strong></button>
+<p>Already have an account? <a href="#">Sign in</a>.</p>
+<input type= submit value="valider ">
+</form>
+
+<ul id="horizontal">
+    <li>
+     <a href="home.htm1 ">home</a>
+        <a href="contact.htm2 "> contact</a>
+        <a href="about us.htm3 "> about us </a>
+        <a href="our services.htm4 "> our services</a><br>
+        <textarea></textarea>
+        <input type="submit"  value="send"  id="button">
+        
+    </li>
+</ul>
+
+
+<div class="container">
+<>
+   
+
+</>
+</div>
+</body>
+</html>
