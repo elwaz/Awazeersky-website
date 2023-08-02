@@ -118,7 +118,10 @@ h1:hover{
    margin: auto;
    border-radius: 30px;
 }
-h2 { text-align: center; }
+h2{ text-align: center;
+    border-left: 30px;
+    margin-top: 20px;
+   }
 img{
     width: 900px;
     margin-top: 60px;
